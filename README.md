@@ -8,15 +8,6 @@ by. 데이터청년캠퍼스 고려대학교 7조
 ## 프로젝트 설명
 `Naver 뉴스, Daum 뉴스`의 게시일자, 제목, 기사본문, 요약문을 크롤링 및 학습하여 `YouTube 뉴스 컨텐츠`를 자동으로 요약하는 서비스를 구현합니다.  
 
-## 구조
-1. **Crawling** : Naver 뉴스와 Daum 뉴스, YouTube 뉴스에서 각각 크롤링 및 스크래핑하여 데이터를 수집한 코드입니다.
-2. **Preprocessing** : Naver, Daum, YouTube 데이터에 대해 Data Cleaning, Tokenizing, Normalizing, Stemming, Integer Encoding 등의 전처리를 수행한 코드입니다.
-3. **CommentSentimentAnalysis** : YouTube 뉴스영상의 댓글을 활용해 감성분석을 진행한 코드입니다.
-4. **Modeling** : 학습을 위한 모델 관련 코드입니다.
-5. **Flask** : PC/모바일 웹 및 어플리케이션 구현을 위한 코드입니다.  
-
-> **전체 과정 정리** : 위의 1 ~ 5 항목에 존재하는 소스코드 중 실제 최종 결과물에 반영된 소스코드만을 작업순서에 따라 재배열한 폴더입니다. 즉, 내용은 1 ~ 5 항목에 나타난 것과 같으니 전체 진행과정을 확인하기 위한 참고용으로 사용하시기 바랍니다.  
-
 ## 데이터 & 학습모델  
 구글 드라이브 link: https://drive.google.com/drive/u/0/folders/1EXBU7Cwbb7DhtwldgVqwRTT6IYf9k_Mu  
 
